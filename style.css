@@ -1,0 +1,44 @@
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.container img{
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+
+img.displayImage{
+    display: block;
+    /* animation: fade;
+    animation-duration: 1.5s; */
+}
+
+.container button{
+    position: absolute;
+    top: 50%;
+    padding: 10px 15px;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.prev{
+    left: 0;
+}
+
+.next{
+    right: 0;
+}
+
+/* @keyframes fade {
+    from {opacity: .5}
+    to {opacity: 1}
+} */
